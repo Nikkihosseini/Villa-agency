@@ -1,0 +1,80 @@
+/*! Navigation */
+
+.swiper-button-next,
+.swiper-button-prev {
+  background-color: rgba(255, 255, 255, 0.2);
+  height: 3.3rem;
+  width: 3.3rem;
+  border-radius: 100%;
+}
+
+.swiper-button-next{
+  transform: translateX(5px) rotate(-90deg);
+  margin-right: 3rem;
+}
+.swiper-button-prev{
+  transform: translateX(5px) rotate(90deg);
+  margin-left: 3rem;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.swiper-button-next::after,
+.swiper-button-next::before {
+  content: "";
+  display: block;
+  width: 0.2rem;
+  height: 0.9rem;
+  border-radius: 5rem;
+  background-color: #fff;
+  position: relative;
+  left: -2px;
+}
+.swiper-button-prev::after,
+.swiper-button-prev::before {
+  content: "";
+  display: block;
+  width: 0.2rem;
+  height: 0.9rem;
+  border-radius: 5rem;
+  background-color: #fff;
+  position: relative;
+  left: -4px;
+  top: 1px;
+}
+
+.swiper-button-next::after {
+  transform: translateX(5px) rotate(45deg);
+}
+.swiper-button-next::before {
+  transform: rotate(135deg);
+}
+
+.swiper-button-prev::after {
+  transform: translateX(5px) rotate(45deg);
+}
+.swiper-button-prev::before {
+  transform: rotate(135deg);
+}
+
+/*! Pagination */
+.swiper-pagination {
+  margin-left: 17.5rem;
+  text-align: start;
+  margin-bottom: 3rem;
+}
+
+.swiper-pagination-bullet {
+   display: inline-block;
+   width: 0.6rem;
+   height: 0.6rem;
+   background-color: #fff;
+   opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+   background-color: #fb2c36;
+}
