@@ -1,4 +1,4 @@
-import '../index.css'
+import '../../index.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faTwitter, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope, faMap, faCalendar} from '@fortawesome/free-solid-svg-icons'
