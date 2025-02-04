@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-import '../index.css'
+import '../../index.css'
 import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 import 'swiper/css';
@@ -29,7 +29,7 @@ export default function HeaderBanner() {
             <div className='container mx-auto px-4 xl:px-20 absolute overflow-y-hidden h-full md:min-h-screen flex items-center justify-start'>
               <div className='ml-50'>
                 <span className='inline-block font-semibold text-[17px] bg-white py-2 px-3 tracking-wider line-clamp-1 mb-4'>Toronto,<span className='text-red-500'>Canada</span></span>
-                <h2 className='text-white text-7xl font-bold line-clamp-4 max-w-[450px] leading-22 uppercase'><span className='block max-w-[214px]'>Hurry!</span>Get the Best Villa for you</h2>
+                <h2 className='text-white text-7xl font-bold line-clamp-4 max-w-[485px] leading-22 uppercase'><span className='block max-w-[214px]'>Hurry!</span>Get the Best Villa for you</h2>
               </div>
             </div>
             <img src="./images/image/banner/banner-01.jpg" alt="Toronto,Canada"/>
@@ -40,7 +40,7 @@ export default function HeaderBanner() {
             <div className='container mx-auto px-4 xl:px-20 absolute overflow-y-hidden h-full md:min-h-screen flex items-center justify-start'>
               <div className='ml-50'>
                 <span className='inline-block font-semibold text-[17px] bg-white py-2 px-3 tracking-wider line-clamp-1 mb-4'>Melbourne,<span className='text-red-500'>Australia</span></span>
-                <h2 className='text-white text-7xl font-bold line-clamp-4 max-w-[450px] leading-22 uppercase'><span className='block max-w-[358px]'>Be Quick!</span>Get the best villa in town</h2>
+                <h2 className='text-white text-7xl font-bold line-clamp-4 max-w-[485px] leading-22 uppercase'><span className='block max-w-[358px]'>Be Quick!</span>Get the best villa in town</h2>
               </div>
             </div>
             <img src="./images/image/banner/banner-02.jpg" alt="Melbourne,Australia"/>

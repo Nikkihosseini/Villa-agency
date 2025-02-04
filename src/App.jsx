@@ -1,6 +1,7 @@
 import './index.css'
-import Header from './Header/Header.jsx'
-import HeaderBanner from './Header/HeaderBanner.jsx'
+import Header from './Components/Header/Header.jsx'
+import HeaderBanner from './Components/Header/HeaderBanner.jsx'
+import Featured from './Components/Featured/Featured.jsx'
 
 export default function App() {
 
@@ -8,6 +9,7 @@ export default function App() {
     <>
      <Header/>
      <HeaderBanner/>
+     <Featured/>
     </>
   )
 }
