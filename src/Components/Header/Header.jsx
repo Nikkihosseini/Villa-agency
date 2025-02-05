@@ -80,7 +80,12 @@ export default function Header() {
          
         </a>
        </div>
-      
+        <div className='block md:hidden'>
+            <div className='flex items-center w-10 h-10 justify-center cursor-pointer'>
+              <span className='hamburger-menu relative block w-8 h-[0.2rem] bg-zinc-950 rounded-lg transition-all'></span>
+            </div>
+            <div></div>
+        </div>
        </div>
       </div>
     </div>
