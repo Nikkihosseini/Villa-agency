@@ -1,5 +1,5 @@
 import '../../index.css'
-import './styles.css';
+import './header-style.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faTwitter, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope, faMap, faCalendar} from '@fortawesome/free-solid-svg-icons'
@@ -38,9 +38,9 @@ export default function Header() {
      </div>
     </div>
 
-    <div className='bg-white w-full h-[104px] z-40 fixed'>
+    <div className='bg-white w-full h-[80px] lg:h-[104px] z-40 sticky'>
       <div className='container mx-auto px-4 xl:px-20'>
-      <div className='flex items-center justify-between py-8'>
+      <div className='flex items-center justify-between py-5 lg:py-8'>
        <div>
          <a href="index.html">
           <h1 className='font-bold text-3xl tracking-wider'>VILLA</h1>
@@ -85,7 +85,7 @@ export default function Header() {
         </div>
        </div>
       </div>
-      <div className='flex md:hidden items-center justify-center relative right-0 left-0 bg-white w-[560px] mx-auto'>
+      <div className='hidden items-center justify-center relative right-0 left-0 bg-white w-[560px] mx-auto'>
       <ul className='flex flex-col divide-y divide-gray-200 border-t-1 border-solid border-gray-200 items-center tracking-wide w-full text-center'>
             <li className='py-4 w-full'>
               <a className=' text-red-500 hover:text-red-500 transition-all' href="#">
