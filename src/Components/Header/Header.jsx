@@ -38,7 +38,7 @@ export default function Header() {
      </div>
     </div>
 
-    <div className='bg-white w-full z-40 sticky'>
+    <div className='bg-white w-full h-[104px] z-40 fixed'>
       <div className='container mx-auto px-4 xl:px-20'>
       <div className='flex items-center justify-between py-8'>
        <div>
@@ -80,16 +80,36 @@ export default function Header() {
          
         </a>
        </div>
-        <div className='block md:hidden'>
-            <div className='flex items-center w-10 h-10 justify-center cursor-pointer'>
-              <span className='hamburger-menu relative block w-8 h-[0.2rem] bg-zinc-950 rounded-lg transition-all'></span>
-            </div>
-            <div></div>
+        <div className='md:hidden flex items-center w-10 h-10 justify-center cursor-pointer'>
+          <span className='hamburger-menu relative block w-8 h-[0.2rem] bg-zinc-950 rounded-lg transition-all'></span>
         </div>
        </div>
       </div>
+      <div className='flex md:hidden items-center justify-center relative right-0 left-0 bg-white w-[560px] mx-auto'>
+      <ul className='flex flex-col divide-y divide-gray-200 border-t-1 border-solid border-gray-200 items-center tracking-wide w-full text-center'>
+            <li className='py-4 w-full'>
+              <a className=' text-red-500 hover:text-red-500 transition-all' href="#">
+                Home
+              </a>
+            </li>
+            <li className='py-4 w-full'>
+              <a className=' hover:text-red-500 transition-all' href="#">
+              Properties
+              </a>
+            </li>
+            <li className='py-4 w-full'>
+              <a className=' hover:text-red-500 transition-all' href="#">
+              Property Details
+              </a>
+            </li>
+            <li className='py-4 w-full'>
+              <a className=' hover:text-red-500 transition-all' href="#">
+              Contact Us
+              </a>
+            </li>
+          </ul>
+        </div>
     </div>
-
     </>
   )
 }
