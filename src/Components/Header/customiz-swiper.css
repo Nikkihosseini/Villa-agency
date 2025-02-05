@@ -101,3 +101,20 @@
   }
 }
 
+@media screen and (min-width: 800px){
+  .swiper-pagination {
+    margin-bottom: 1rem;
+  }
+}
+
+/* @media screen and (min-width: 700px){
+  .m-top{
+    margin-top: -800px;
+  }
+} */
+
+
+
+
+
+
