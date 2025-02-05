@@ -1,4 +1,5 @@
 import '../../index.css'
+import './styles.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faTwitter, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope, faMap, faCalendar} from '@fortawesome/free-solid-svg-icons'
@@ -8,7 +9,7 @@ export default function Header() {
 
   return (
     <>
-    <div className='bg-white w-full border-b-1 border-solid border-gray-200'>
+    <div className='bg-white w-full border-b-1 border-solid border-gray-200 hidden lg:block'>
      <div className='container mx-auto px-4 xl:px-20'>
       <div className='flex items-center justify-between py-4'>
           <div className='text-gray-500'>
@@ -45,9 +46,9 @@ export default function Header() {
           <h1 className='font-bold text-3xl tracking-wider'>VILLA</h1>
          </a>
        </div>
-      <div className='flex items-center gap-x-10'>
+      <div className='hidden md:flex items-center gap-x-10 '>
         <div>
-          <ul className='flex items-center gap-x-12'>
+          <ul className='flex items-center gap-x-6 lg:gap-x-12'>
             <li>
               <a className='font-semibold text-red-500 hover:text-red-500 transition-all' href="#">
                 Home
@@ -79,6 +80,7 @@ export default function Header() {
          
         </a>
        </div>
+      
        </div>
       </div>
     </div>
