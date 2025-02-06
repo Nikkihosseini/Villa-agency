@@ -7,7 +7,7 @@ export default function Featured() {
     return(
         <>
             <div className='container mx-auto px-4 xl:px-20'>
-               <div className='flex flex-col md:flex-row items-center justify-around gap-x-8  px-0 lg:px-8 my-12 md:my-26 md:h-[498px] h-full'>
+               <div className='flex flex-col md:flex-row items-center justify-around gap-x-8 px-0 lg:px-8 my-12 md:my-26 md:h-[498px] h-full '>
                 <div className='relative 2xl:flex hidden'>
                         <div className='lg:w-[355px] lg:h-[490px]'>
                             <img className='block w-full h-full' src="./public/images/image/featured/featured.jpg" alt="featured"/>  
