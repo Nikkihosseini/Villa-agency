@@ -1,8 +1,8 @@
 import './index.css'
-import Header from './Components/Header/Header.jsx'
-import HeaderBanner from './Components/Header/HeaderBanner.jsx'
-import Featured from './Components/Featured/Featured.jsx'
-import VideoView from './Components/VideoView/VideoView.jsx'
+import Header from './Components/Home/Header/Header.jsx'
+import HeaderBanner from './Components/Home/Header/HeaderBanner.jsx'
+import Featured from './Components/Home/Featured/Featured.jsx'
+import VideoView from './Components/Home/VideoView/VideoView.jsx'
 
 export default function App() {
 
