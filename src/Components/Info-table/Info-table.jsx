@@ -4,7 +4,7 @@ import '../styles/styles.css'
 export default function InfoTable(props){
     return(
         <>
-        <div className='flex flex-col justify-around w-[380px] sm:w-[306px] h-[498px] rounded-[0.8rem] shadow-normal p-8 divide-y divide-gray-200'>
+        <div className='flex flex-col justify-around w-[330px] sm:w-[306px] h-[498px] rounded-[0.8rem] shadow-normal p-8 divide-y divide-gray-200'>
             <div className='flex items-center gap-x-7 pb-8'>
                 <div>
                     <img src="./public/images/icon/info-icon-01.png" alt="icon"/>
