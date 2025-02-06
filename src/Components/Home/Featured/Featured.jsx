@@ -1,4 +1,4 @@
-import '../../index.css'
+import '../../../index.css'
 import '../styles/styles.css'
 import { Accordion } from 'flowbite-react';
 import InfoTable from '../Info-table/Info-table.jsx'
