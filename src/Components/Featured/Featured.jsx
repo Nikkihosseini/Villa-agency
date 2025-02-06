@@ -27,7 +27,7 @@ export default function Featured() {
                          </a>
                         </div>
                         <div>
-                            <Accordion className='bg-zinc-50 border-none dark:border-none dark:divide-gray-200 dark:border-gray-200 transition w-[380px] sm:w-[530px] md:w-[390px] lg:w-[470px] 2xl:w-[550px]'>
+                            <Accordion className='bg-zinc-50 border-none dark:border-none dark:divide-gray-200 dark:border-gray-200 transition w-[330px] sm:w-[530px] md:w-[390px] lg:w-[470px] 2xl:w-[550px]'>
                                 <Accordion.Panel className='bg-zinc-50'>
                                     <Accordion.Title className='dark:bg-zinc-50 dark:text-zinc-950 font-semibold dark:hover:bg-zinc-50 dark:focus:ring-zinc-50 focus:ring-0 p-3'>Best useful links ?</Accordion.Title>
                                         <Accordion.Content className='dark:bg-zinc-50 text-zinc-950 p-3'>
