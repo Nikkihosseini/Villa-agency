@@ -2,6 +2,7 @@ import './index.css'
 import Header from './Components/Header/Header.jsx'
 import HeaderBanner from './Components/Header/HeaderBanner.jsx'
 import Featured from './Components/Featured/Featured.jsx'
+import VideoView from './Components/VideoView/VideoView.jsx'
 
 export default function App() {
 
@@ -10,6 +11,7 @@ export default function App() {
      <Header/>
      <HeaderBanner/>
      <Featured/>
+     <VideoView/>
     </>
   )
 }
