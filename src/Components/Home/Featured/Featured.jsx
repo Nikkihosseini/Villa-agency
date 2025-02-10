@@ -20,7 +20,7 @@ export default function Featured() {
                         <div className='relative flex flex-col items-start'>
                          <div className='md:mb-0 mb-4'>
                             <h4 className='line-before text-red-500 relative font-bold uppercase ml-2.5 mb-4'>Featured</h4>
-                            <h3 className='font-bold text-2xl md:text-3xl lg:text-4xl xl:text-5xl w-[210px] md:max-w-[400px]'>Best Appartment & Sea view</h3>
+                            <h3 className='font-bold text-2xl md:text-3xl lg:text-4xl xl:text-5xl md:leading-15 w-[210px] md:w-[350px] 2xl:w-[400px]'>Best Appartment & Sea view</h3>
                          </div>
                          <a className='flex 2xl:hidden items-center justify-center absolute right-0 bottom-0 md:bottom-[-85px] lg:bottom-[-8px] md:w-[110px] md:h-[110px] w-[90px] h-[90px] bg-red-500 rounded-full mb-4' href='#'>
                             <img src="./public/images/icon/featured-icon.png" alt="featured-icon"/>
