@@ -1,7 +1,7 @@
 import '../../../index.css'
 import '../styles/styles.css'
 
-export default function InfoTableIcon(props){
+export default function InfoTable(props){
     return(
         <>
         <div className='flex flex-col justify-around w-[330px] sm:w-[306px] h-[498px] rounded-[0.8rem] shadow-normal p-8 divide-y divide-gray-200'>
