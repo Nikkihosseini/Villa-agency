@@ -1,7 +1,7 @@
 import '../../../index.css'
 import '../styles/styles.css'
 import { Accordion } from 'flowbite-react';
-import InfoTable from '../Info-table/Info-table.jsx'
+import InfoTableIcon from '../Info-table/Info-table-icon.jsx'
 
 export default function Featured() {
     return(
@@ -56,13 +56,13 @@ export default function Featured() {
                         </div>
                     </div>
                     <div className='flex sm:hidden md:flex mt-8 md:mt-0'>
-                        <InfoTable space='250 m2' safety='24/7'/>
+                        <InfoTableIcon space='250 m2' safety='24/7'/>
                     </div>
                     <div className='hidden sm:flex md:hidden mt-5'>
                        <div className='relative lg:w-[355px] lg:h-[490px] rounded-[0.8rem] overflow-hidden'>
                             <img className='block w-full h-full' src="./public/images/image/featured/featured.jpg" alt="featured"/> 
                         </div>
-                        <InfoTable space='250 m2' safety='24/7'/>
+                        <InfoTableIcon space='250 m2' safety='24/7'/>
                     </div>
                </div>
             </div>
