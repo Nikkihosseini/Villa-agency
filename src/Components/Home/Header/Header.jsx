@@ -75,9 +75,7 @@ export default function Header() {
         <span className='flex items-center justify-center absolute left-0 bg-red-500 w-10 h-10 rounded-full'>
           <FontAwesomeIcon className='text-white' icon={faCalendar}/>
           </span>
-
           Schedule a visit
-         
         </a>
        </div>
         <div className='md:hidden flex items-center w-10 h-10 justify-center cursor-pointer'>
