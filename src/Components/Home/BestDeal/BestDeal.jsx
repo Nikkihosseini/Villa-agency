@@ -1,7 +1,9 @@
 import '../../../index.css'
+import '../styles/styles.css'
 import InfoTable from '../Info-table/Info-table.jsx'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCalendar } from '@fortawesome/free-solid-svg-icons'
+import SectionTitle from '../SectionTitle/SectionTitle.jsx'
 
 
 export default function BestDeal(){
@@ -12,9 +14,7 @@ export default function BestDeal(){
                    <div className='py-12 md:py-26 w-full'>
                      <div className='flex flex-col lg:flex-row gap-y-5 lg:gap-y-0 items-center justify-between mb-10 lg:mb-15 xl:mb-20'>
                          <div>
-                            <h4 className='line-before text-red-500 relative font-bold uppercase ml-2.5 mb-4'>Best Deal</h4>
-                            <h3 className='font-bold text-2xl md:text-4xl xl:text-5xl md:leading-15 max-w-[450px]'>Find Your Best Deal Right Now!
-                            </h3>
+                            <SectionTitle title='Best Deal' caption='Find Your Best Deal Right Now!'/>
                          </div>
                          <div className='flex items-center justify-center gap-x-4 text-white font-semibold flex-wrap sm:flex-nowrap  gap-y-3 sm:gap-y-0 sm:w-[480px]'>
                             <button className='bg-red-500 rounded-md w-[130px] h-[35px] sm:w-[150px] sm:h-[50px] cursor-pointer tracking-wide text-base sm:text-lg'>Appartment</button>
