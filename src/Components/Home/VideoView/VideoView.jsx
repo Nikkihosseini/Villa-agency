@@ -3,6 +3,7 @@ import '../styles/styles.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlay } from '@fortawesome/free-solid-svg-icons'
 import InfoBox from './InfoBox.jsx'
+import SectionTitle from '../SectionTitle/SectionTitle.jsx'
 
 export default function VideoView(){
     return(
@@ -15,7 +16,7 @@ export default function VideoView(){
                 <div className='flex flex-col items-center justify-between gap-y-10 lg:gap-y-15 xl:gap-y-18 text-center md:mt-[-15rem] lg:mt-[-21rem] xl:mt-[-26rem]'>
                     <div className='flex flex-col items-center'>
                         <h4 className='line-before text-red-500 relative font-bold uppercase ml-2.5 xl:mb-4'>Video View</h4>
-                        <h3 className='text-zinc-950 md:text-white font-bold text-2xl md:text-4xl xl:text-5xl w-[25rem] xl:w-[33rem] md:leading-15'>Get Closer View & Different Feeling</h3>
+                        <h3 className='text-zinc-950 md:text-white font-bold text-2xl md:text-4xl 2xl:text-5xl md:leading-15 w-[210px] md:w-[350px] 2xl:w-[450px]'>Get Closer View & Different Feeling</h3>
                     </div>
                     <div>
                     <div className='relative rounded-lg overflow-hidden max-w-[1070px] max-h-[480px] shadow-normalg'>
