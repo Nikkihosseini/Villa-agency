@@ -85,6 +85,11 @@ export default function Properties(){
                     </div>
                     <div className='grid grid-cols-3 gap-9'>
                         <PropertiesBox {...Data[0]}/>
+                        <PropertiesBox {...Data[1]}/>
+                        <PropertiesBox {...Data[2]}/>
+                        <PropertiesBox {...Data[3]}/>
+                        <PropertiesBox {...Data[4]}/>
+                        <PropertiesBox {...Data[5]}/>
                     </div>
             </div>        
         </>
