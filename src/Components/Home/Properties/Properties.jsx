@@ -83,7 +83,7 @@ export default function Properties(){
                     <div className='md:mb-17 mb-10 flex flex-col items-center justify-center text-center'>
                         <SectionTitle title='Properties' caption='We Provide The Best Property You Like'/>
                     </div>
-                    <div className='grid grid-cols-3 gap-9'>
+                    <div className='grid md:grid-cols-2 2xl:grid-cols-3 gap-6 2xl:gap-9'>
                         <PropertiesBox {...Data[0]}/>
                         <PropertiesBox {...Data[1]}/>
                         <PropertiesBox {...Data[2]}/>
