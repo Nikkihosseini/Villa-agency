@@ -13,7 +13,6 @@ export default function ContactUs(){
                         <h4 className='line-before text-red-500 relative font-bold uppercase ml-2.5 xl:mb-4'>Contact Us</h4>
                         <h3 className='text-zinc-950 md:text-white font-bold text-2xl md:text-4xl md:leading-15 w-[210px] md:w-[350px] 2xl:w-[450px]'>Get In Touch With Our Agents</h3>
                     </div>
-
                     <div className='flex lg:flex-row flex-col items-center justify-between w-full gap-x-10 2xl:gap-x-12'>
                         <div className='h-full w-full lg:w-[60%]'>
                             <div className='h-125 w-full bg-white rounded-[0.8rem] shadow-normal font-bold flex items-center justify-center text-3xl mb-8 lg:mb-12'>Map</div>
@@ -21,14 +20,14 @@ export default function ContactUs(){
                                 <div className='flex items-center text-start w-full lg:w-1/2 gap-x-6 shadow-normal rounded-[0.8rem] p-8 bg-white'>
                                 <img src="./public/images/icon/phone-icon.png" alt="phone-icon"/>
                                 <div className='flex flex-col'>
-                                    <span className='font-bold text-lg xl:text-xl'>010-020-0340</span>
+                                    <span className='font-bold text-base sm:text-lg xl:text-xl'>010-020-0340</span>
                                     <span className='text-gray-400'>Phone Number</span>
                                 </div>
                                 </div>
                                 <div className='flex items-center text-start w-full lg:w-1/2 gap-x-6 shadow-normal rounded-[0.8rem] p-8 bg-white '>
                                 <img src="./public/images/icon/email-icon.png" alt="phone-icon"/>
                                 <div className='flex flex-col'>
-                                    <span className='font-bold text-lg xl:text-xl'>info@villa.co</span>
+                                    <span className='font-bold text-base sm:text-lg xl:text-xl'>info@villa.co</span>
                                     <span className='text-gray-400'>Business Email</span>
                                 </div>
                                 </div>
