@@ -7,8 +7,8 @@ export default function VideoView(){
     return(
         <>
         <div className='my-12 md:my-26'>
-            <div className='hidden md:flex'>
-                <img src="./public/images/image/video-img/video-bg.jpg" alt="video-bg"/> 
+            <div className='hidden md:flex w-full'>
+                <img className='w-full' src="./public/images/image/video-img/video-bg.jpg" alt="video-bg"/> 
             </div>
             <div className='container mx-auto px-4 xl:px-20'>
                 <div className='flex flex-col items-center justify-between gap-y-10 lg:gap-y-15 xl:gap-y-18 text-center md:mt-[-15rem] lg:mt-[-21rem] xl:mt-[-26rem]'>
