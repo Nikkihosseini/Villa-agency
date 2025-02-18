@@ -1,8 +1,13 @@
-# React + Vite
+# Villa Agency
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description:
+### A responsive project with ReactJs(Tailwind Css).It's called Villa Agency.
+ Villa Agency is a professional React template with Tailwind Css framework. There are Property Listing page and Property Detail page. Property Listing categorized different properties by apartment, villa house, and penthouse. Contact page includes simple contact form with name, email, subject, and message text fields.
 
-Currently, two official plugins are available:
+## Libraries:
+-ReactJS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ ## Frameworks:
+ -Tailwind CSS
+
+ ### Snapshot:
