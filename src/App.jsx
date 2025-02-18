@@ -1,11 +1,12 @@
 import './index.css'
 import Header from './Components/Home/Header/Header.jsx'
 import HeaderBanner from './Components/Home/Header/HeaderBanner.jsx'
-import Featured from './Components/Home/Featured/Featured.jsx'
-import VideoView from './Components/Home/VideoView/VideoView.jsx'
-import BestDeal from './Components/Home/BestDeal/BestDeal.jsx'
-import Properties from './Components/Home/Properties/Properties.jsx'
-import ContactUs from './Components/Home/contactus/ContactUs.jsx'
+import Featured from './Components/Home/Main/Featured/Featured.jsx'
+import VideoView from './Components/Home/Main/VideoView/VideoView.jsx'
+import BestDeal from './Components/Home/Main/BestDeal/BestDeal.jsx'
+import Properties from './Components/Home/Main/Properties/Properties.jsx'
+import ContactUs from './Components/Home/Main/contactus/ContactUs.jsx'
+import Footer from './Components/Home/Footer/Footer.jsx'
 
 export default function App() {
 
@@ -18,6 +19,7 @@ export default function App() {
      <BestDeal/>
      <Properties/>
      <ContactUs/>
+     <Footer/>
     </>
   )
 }

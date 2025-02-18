@@ -1,5 +1,5 @@
-import '../../../index.css'
-import SectionTitle from '../SectionTitle/SectionTitle.jsx'
+import '../../../../index.css'
+import SectionTitle from '../../../SectionTitle/SectionTitle.jsx'
 import PropertiesBox from '../Properties/PropertiesBox.jsx'
 
 export default function Properties(){
