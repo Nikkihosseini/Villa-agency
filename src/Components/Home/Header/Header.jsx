@@ -37,7 +37,7 @@ export default function Header() {
      </div>
     </div>
 
-    <div className='bg-white w-full h-[80px] lg:h-[104px] z-40 sticky'>
+    <div className='sticky top-0 bg-white w-full h-[80px] lg:h-[104px] z-40'>
       <div className='container mx-auto px-4 xl:px-20'>
       <div className='flex items-center justify-between py-5 lg:py-8'>
        <div>
