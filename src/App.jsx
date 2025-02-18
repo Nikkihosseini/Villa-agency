@@ -7,7 +7,6 @@ import BestDeal from './Components/Home/BestDeal/BestDeal.jsx'
 import Properties from './Components/Home/Properties/Properties.jsx'
 import ContactUs from './Components/Home/contactus/ContactUs.jsx'
 
-
 export default function App() {
 
   return (
