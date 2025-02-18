@@ -1,5 +1,21 @@
 @import "tailwindcss";
 
+/* Utility */
+
+@utility container{
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 16px
+    padding-left: 16px  
+}
+
+@media screen and (min-width: 1280px){
+    .container{
+        padding-right: 80px;
+        padding-left: 80px;
+    }
+}
+
 
 /* !Styles */
 
