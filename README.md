@@ -11,9 +11,9 @@
  -Tailwind CSS
 
  ### Snapshot:
- <a href="https://ibb.co/mF2540zZ"><img src="https://i.ibb.co/S7MwBcvY/villa-agency1.png" alt="villa-agency1" border="0"></a>
-<a href="https://ibb.co/9kNVQXGH"><img src="https://i.ibb.co/rRmcDPv2/villa-agency2.png" alt="villa-agency2" border="0"></a>
-<a href="https://ibb.co/hRDTJ5gp"><img src="https://i.ibb.co/C5hS3dwx/villa-agency3.png" alt="villa-agency3" border="0"></a>
-<a href="https://ibb.co/YBTBQF2T"><img src="https://i.ibb.co/gZFZ9LyF/villa-agency4.png" alt="villa-agency4" border="0"></a>
-<a href="https://ibb.co/1w5TS3w"><img src="https://i.ibb.co/qPfpZzP/villa-agency5.png" alt="villa-agency5" border="0"></a>
-<a href="https://ibb.co/HLFPyCJ2"><img src="https://i.ibb.co/mrDyK0xB/villa-agency6.png" alt="villa-agency6" border="0"></a>
+<a href="https://ibb.co/B5XVpcsN"><img src="https://i.ibb.co/rRCGjFys/villa-agency1-2.png" alt="villa-agency1-2" border="0"></a>
+<a href="https://ibb.co/Jjt39xHJ"><img src="https://i.ibb.co/k2Bmt3XC/villa-agency2-2.png" alt="villa-agency2-2" border="0"></a>
+<a href="https://ibb.co/prR3TFCK"><img src="https://i.ibb.co/vvQJWn2d/villa-agency3-2.png" alt="villa-agency3-2" border="0"></a>
+<a href="https://ibb.co/5WvmbVyK"><img src="https://i.ibb.co/4ZMzhxG1/villa-agency4-2.png" alt="villa-agency4-2" border="0"></a>
+<a href="https://ibb.co/LDLhTb5d"><img src="https://i.ibb.co/1YDJCh6G/villa-agency5-2.png" alt="villa-agency5-2" border="0"></a>
+<a href="https://ibb.co/jP2thFjx"><img src="https://i.ibb.co/Mx4dnLJj/villa-agency6-2.png" alt="villa-agency6-2" border="0"></a>
