@@ -8,6 +8,7 @@ import Properties from './Components/Home/Main/Properties/Properties.jsx'
 import ContactUs from './Components/Home/Main/contactus/ContactUs.jsx'
 import Footer from './Components/Home/Footer/Footer.jsx'
 
+
 export default function App() {
 
   return (

@@ -2,9 +2,17 @@ import '../../../index.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faTwitter, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope, faMap, faCalendar} from '@fortawesome/free-solid-svg-icons'
+import { useState } from 'react'
 
 
 export default function Header() {
+
+  const [isOpen , setIsOpen] = useState(false)
+ 
+  function toggleMobileMenu(){
+    setIsOpen(!isOpen)
+  }
+
 
   return (
     <>
@@ -36,8 +44,8 @@ export default function Header() {
       </div>
      </div>
     </div>
-
-    <div className='sticky top-0 bg-white w-full h-[80px] lg:h-[104px] z-40'>
+    <div className='sticky top-0 bg-white w-full h-[80px] lg:h-[104px] z-50'>
+      <div className='sticky top-0 bg-white w-full h-[80px] lg:h-[104px] z-50'>
       <div className='container mx-auto px-4 xl:px-20'>
       <div className='flex items-center justify-between py-5 lg:py-8'>
        <div>
@@ -77,12 +85,13 @@ export default function Header() {
           Schedule a visit
         </a>
        </div>
-        <div className='md:hidden flex items-center w-10 h-10 justify-center cursor-pointer'>
+        <div onClick={toggleMobileMenu} className='mobile-menu-btn md:hidden flex items-center w-10 h-10 justify-center cursor-pointer'>
           <span className='hamburger-menu relative block w-8 h-[0.2rem] bg-zinc-950 rounded-lg transition-all'></span>
         </div>
        </div>
       </div>
-      <div className='hidden items-center justify-center relative right-0 left-0 bg-white w-[560px] mx-auto'>
+      </div>
+      <div className={`mobile-menu ${isOpen ? 'transition-all ease-in-out top-0 shadow-mobile-menu' : 'transition-all ease-in-out top-[-317px]'} items-center justify-center relative right-0 left-0 bg-white max-w-[560px] mx-auto -z-10`}>
       <ul className='flex flex-col divide-y divide-gray-200 border-t-1 border-solid border-gray-200 items-center tracking-wide w-full text-center'>
             <li className='py-4 w-full'>
               <a className=' text-red-500 hover:text-red-500 transition-all' href="#">
