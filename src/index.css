@@ -6,6 +6,9 @@
 .shadow-normal{
     box-shadow: 0px 2px 22px -5px rgba(0,0,0,0.21);
 }
+.shadow-mobile-menu{
+    box-shadow: 0px 14px 28px -5px rgba(0,0,0,0.28);
+}
 
 .line-before::before{
     content: "";
@@ -29,6 +32,7 @@
 
 /* ? Hamburger Menu*/
 
+
 .hamburger-menu::before{
     content: "";
     display: block;
@@ -49,6 +53,14 @@
     position: absolute;
     top: -8px;
   }
+
+
+
+  @media screen and (min-width: 768px){
+    .mobile-menu{
+        display: none;
+    }
+}
 
   @media screen and (min-width: 1280px){
     .container{
