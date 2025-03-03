@@ -7,13 +7,11 @@ export default function App() {
 
   return (
     <>
-      <Home/>
       <Router>
+        <Home/>
         <Routes>
           <Route path='/' element={<Home/>} />
-          <Route path='/Properties' element={<Properties/>} />
-          <Route path='/PropertyDetails' element={<PropertyDetails/>} />
-          <Route path='/ContactUs' element={<ContactUs/>} />
+          <Route path='*' element={<div className='flex items-center justify-center mt-30 font-bold'>Page Not Found</div>} />
         </Routes>
       </Router>
     </>
