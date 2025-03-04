@@ -1,4 +1,3 @@
-import '../../../../index.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlay } from '@fortawesome/free-solid-svg-icons'
 import InfoBox from './InfoBox.jsx'

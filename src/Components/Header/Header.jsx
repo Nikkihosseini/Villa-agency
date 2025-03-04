@@ -1,10 +1,8 @@
-import '../../../index.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faTwitter, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope, faMap, faCalendar} from '@fortawesome/free-solid-svg-icons'
 import { useState } from 'react'
-import { BrowserRouter as Router , Routes , Route , Link} from 'react-router'
-
+import {Link} from 'react-router'
 
 export default function Header() {
 
@@ -13,7 +11,6 @@ export default function Header() {
   function toggleMobileMenu(){
     setIsOpen(!isOpen)
   }
-
 
   return (
     <>
@@ -61,13 +58,13 @@ export default function Header() {
                 <Link to='/'>Home</Link>
               </li>
               <li className='font-semibold hover:text-red-500 transition-all'>
-                <Link to='/Properties'>Properties</Link>
+                <Link to='/properties'>Properties</Link>
               </li>
               <li className='font-semibold hover:text-red-500 transition-all'>
-                <Link to='/Properties'> Property Details</Link>
+                <Link to='/propertyDetails'>Property Details</Link>
               </li>
               <li className='font-semibold hover:text-red-500 transition-all'>
-                <Link to='/Properties'> Contact Us</Link>
+                <Link to='/contactUs'>Contact Us</Link>
               </li>
             </ul>
         </div>
@@ -93,10 +90,10 @@ export default function Header() {
               <Link to='/Properties'>Properties</Link>
             </li>
             <li className='py-4 w-full font-semibold hover:text-red-500 transition-all'>
-              <Link to='/Properties'> Property Details</Link>
+              <Link to='/PropertyDetails'>Property Details</Link>
             </li>
             <li className='py-4 w-full font-semibold hover:text-red-500 transition-all'>
-              <Link to='/Properties'> Contact Us</Link>
+              <Link to='/ContactUs'>Contact Us</Link>
             </li>
           </ul>
         </div>
