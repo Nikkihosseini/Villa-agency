@@ -1,4 +1,3 @@
-import '../../../../index.css'
 
 export default function PropertiesBox({img, category, price, caption, bedrooms, bathrooms, area, floor, parking}){
     return(
