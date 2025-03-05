@@ -1,9 +1,10 @@
+import Header from '../Header/Header.jsx'
 import BannerPages from '../BannerPages/BannerPages.jsx'
 
 export default function Properties(){
     return(
         <>
-            <header/>
+            <Header/>
             <BannerPages pageName='Properties'/>
         </>
     )

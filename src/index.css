@@ -55,6 +55,14 @@
   }
 
 
+/* !BannerPages */
+
+
+  .slash::before{
+    content: '/';
+    margin-right: 6px;
+  }
+
 
   @media screen and (min-width: 768px){
     .mobile-menu{

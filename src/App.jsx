@@ -1,4 +1,5 @@
 import './index.css'
+import React from 'react'
 import Home from './Components/Home/Home.jsx'
 import Properties from './Components/Properties/Properties.jsx'
 import { BrowserRouter as Router , Routes , Route } from 'react-router'
@@ -9,7 +10,6 @@ export default function App() {
   return (
     <>
       <Router>
-        <Home/>
         <Routes>
           <Route path='/' element={<Home/>} />
           <Route path='/properties' element={<Properties/>} />
