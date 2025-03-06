@@ -1,6 +1,6 @@
 import { Accordion } from 'flowbite-react';
-import InfoTableIcon from '../../../Info-table/Info-table-icon.jsx'
-import SectionTitle from '../../../SectionTitle/SectionTitle.jsx'
+import InfoTableIcon from '../../../../Info-table/Info-table-icon.jsx'
+import SectionTitle from '../../../../SectionTitle/SectionTitle.jsx'
 
 export default function Featured() {
     return(

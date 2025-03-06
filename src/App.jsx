@@ -1,7 +1,7 @@
 import './index.css'
 import React from 'react'
-import Home from './Components/Home/Home.jsx'
-import Properties from './Components/Properties/Properties.jsx'
+import Home from './Components/Pages/Home/Home.jsx'
+import Properties from './Components/Pages/Properties/Properties.jsx'
 import { BrowserRouter as Router , Routes , Route } from 'react-router'
 
 
