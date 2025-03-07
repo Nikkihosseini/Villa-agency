@@ -5,7 +5,7 @@ import Featured from "./Main/Featured/Featured.jsx";
 import VideoView from "./Main/VideoView/VideoView.jsx";
 import BestDeal from "./Main/BestDeal/BestDeal.jsx";
 import Properties from "./Main/Propertie/Propertie.jsx";
-import ContactUs from "./Main/contactus/ContactUs.jsx";
+import ContactUs from "../../ContactUs/ContactUsHome.jsx";
 import Footer from "../../Footer/Footer.jsx";
 
  
