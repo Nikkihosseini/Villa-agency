@@ -1,5 +1,6 @@
 import { useState , Fragment} from "react"
 import PropertiesBox from "../../PropertiesBox/PropertiesBox"
+import Footer from "../../Footer/Footer"
 
 
 export default function PropertiesWrapper(){
@@ -151,6 +152,7 @@ export default function PropertiesWrapper(){
                     </div>
                 </div> 
             </div>
+            <Footer/>
         </Fragment>
     )
 }
