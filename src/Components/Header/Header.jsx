@@ -21,9 +21,6 @@ export default function Header() {
     setIsOpen(!isOpen)
   }
 
-  function activePages(event){
-    serActivePage(event.target.id)
-  }
 
   return (
     <>
@@ -67,16 +64,16 @@ export default function Header() {
       <div className='hidden md:flex items-center gap-x-10 '>
         <div>
             <ul className='flex items-center gap-x-6 lg:gap-x-12'>
-              <li onClick={activePages} id='1' className={`font-semibold transition-all ${url === "/" ?" active-page" : "hover:text-red-500"} `}>
+              <li id='1' className={`font-semibold transition-all ${url === "/" ?" active-page" : "hover:text-red-500"} `}>
                 <Link to='/'>Home</Link>
               </li>
-              <li onClick={activePages} id='2' className={`${url === "/properties" ?" active-page" : "hover:text-red-500"} font-semibold transition-all`}>
+              <li id='2' className={`${url === "/properties" ?" active-page" : "hover:text-red-500"} font-semibold transition-all`}>
                 <Link to='/properties'>Properties</Link>
               </li>
-              <li onClick={activePages} id='3' className={`${url === "/propertyDetails" ?" active-page" : "hover:text-red-500"} font-semibold transition-all`}>
+              <li id='3' className={`${url === "/propertyDetails" ?" active-page" : "hover:text-red-500"} font-semibold transition-all`}>
                 <Link to='/propertyDetails'>Property Details</Link>
               </li>
-              <li onClick={activePages} id='4' className={`${url === "/contactUs" ?" active-page" : "hover:text-red-500"} font-semibold transition-all`}>
+              <li id='4' className={`${url === "/contactUs" ?" active-page" : "hover:text-red-500"} font-semibold transition-all`}>
                 <Link to='/contactUs'>Contact Us</Link>
               </li>
             </ul>
