@@ -68,6 +68,10 @@
   .active{
     background-color: #fb2c36;
   }
+  
+  .active-page{
+    color: #fb2c36;
+  }
 
 
   @media screen and (min-width: 768px){
