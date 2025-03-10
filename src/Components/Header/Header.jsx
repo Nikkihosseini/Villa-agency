@@ -79,18 +79,6 @@ export default function Header() {
               <li onClick={activePages} id='4' className={`${url === "/contactUs" ?" active-page" : "hover:text-red-500"} font-semibold transition-all`}>
                 <Link to='/contactUs'>Contact Us</Link>
               </li>
-               {/* <li className='font-semibold active-page hover:text-red-500 transition-all'>
-                <Link to='/'>Home</Link>
-              </li>
-              <li className='font-semibold hover:text-red-500 transition-all'>
-                <Link to='/properties'>Properties</Link>
-              </li>
-              <li className='font-semibold hover:text-red-500 transition-all'>
-                <Link to='/propertyDetails'>Property Details</Link>
-              </li>
-              <li className='font-semibold hover:text-red-500 transition-all'>
-                <Link to='/contactUs'>Contact Us</Link>
-              </li> */}
             </ul>
         </div>
         <a className='font-semibold relative flex items-center py-2 pr-5 pl-14 bg-zinc-950 text-white hover:text-red-500 rounded-full transition-all' href='#'>
@@ -108,17 +96,17 @@ export default function Header() {
       </div>
       <div className={`mobile-menu ${isOpen ? 'transition-all ease-in-out top-0 shadow-mobile-menu' : 'transition-all ease-in-out top-[-317px]'} items-center justify-center relative right-0 left-0 bg-white max-w-[560px] mx-auto -z-10`}>
       <ul className='flex flex-col divide-y divide-gray-200 border-t-1 border-solid border-gray-200 items-center tracking-wide w-full text-center'>
-            <li className='py-4 w-full font-semibold text-red-500 hover:text-red-500 transition-all'>
+            <li className={`${url === "/" ?" active-page" : ''} py-4 w-full font-semibold transition-all`}>
               <Link to='/'>Home</Link>
             </li>
-            <li className='py-4 w-full font-semibold hover:text-red-500 transition-all'>
-              <Link to='/Properties'>Properties</Link>
+            <li className={`${url === "/properties" ?" active-page" : ''} py-4 w-full font-semibold transition-all`}>
+              <Link to='/properties'>Properties</Link>
             </li>
-            <li className='py-4 w-full font-semibold hover:text-red-500 transition-all'>
-              <Link to='/PropertyDetails'>Property Details</Link>
+            <li className={`${url === "/propertyDetails" ?" active-page" : ''} py-4 w-full font-semibold transition-all`}>
+              <Link to='/propertyDetails'>Property Details</Link>
             </li>
-            <li className='py-4 w-full font-semibold hover:text-red-500 transition-all'>
-              <Link to='/ContactUs'>Contact Us</Link>
+            <li className={`${url === "/contactUs" ?" active-page" : ''} py-4 w-full font-semibold transition-all`}>
+              <Link to='/contactUs'>Contact Us</Link>
             </li>
           </ul>
         </div>
