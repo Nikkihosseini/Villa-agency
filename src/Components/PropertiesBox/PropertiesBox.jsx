@@ -1,8 +1,14 @@
+import { motion } from "framer-motion"
 
 export default function PropertiesBox({img, category, price, caption, bedrooms, bathrooms, area, floor, parking}){
     return(
         <>
-            <div className='flex flex-col items-center justify-center bg-gray-50 rounded-[0.8rem] p-8 w-auto'>
+            <motion.div className='flex flex-col items-center justify-center bg-gray-50 rounded-[0.8rem] p-8 w-auto'
+               layout
+               initial={{ transform: "scale(0)"}}
+               animate={{ transform: "scale(1)"}}
+               exit={{ transform: "scale(0.9)"}}
+               transition={{duration: 0.5}}>
                 <div className='flex flex-col items-center justify-center gap-y-5 border-b border-gray-200 pb-8 mb-8'>
                     <a className='w-auto h-auto lg:w-[355.99px] lg:h-[264.44px] rounded-[0.8rem] overflow-hidden' href='#'>
                         <img className='w-full h-full' src={img} alt="Propertie"/>
@@ -21,7 +27,7 @@ export default function PropertiesBox({img, category, price, caption, bedrooms, 
                     </div>
                 </div>
                 <a className='font-semibold flex items-center justify-center w-[170px] h-[40px] bg-zinc-950 text-white hover:bg-red-500 rounded-full transition-all' href="#">Schedule a visit</a>
-            </div>
+            </motion.div>
         </>
     )
 }

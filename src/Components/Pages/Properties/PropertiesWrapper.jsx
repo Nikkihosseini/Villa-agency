@@ -3,6 +3,7 @@ import PropertiesBox from "../../PropertiesBox/PropertiesBox"
 import PropertiesBtn from "./PropertiesBtn"
 import {propertiesData} from './propertiesData'
 import {categoryContext} from './categoryContext'
+import { AnimatePresence } from "framer-motion"
 
 
 
@@ -19,9 +20,11 @@ export default function PropertiesWrapper(){
                                 <PropertiesBtn/>
                             </div> 
                             <div className='grid md:grid-cols-2 2xl:grid-cols-3 gap-6 2xl:gap-9'>
-                            {category.map((item) => (
-                                    <PropertiesBox key={item.id} {...item}/>
-                                ))}
+                                <AnimatePresence>
+                                    {category.map((item) => (
+                                        <PropertiesBox key={item.id} {...item}/>
+                                    ))}
+                                </AnimatePresence>
                             </div> 
                             <div>
                                 <div className="flex items-center justify-center gap-x-4">

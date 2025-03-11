@@ -15,7 +15,7 @@ export const propertiesData = [
         {
             id: 2,
             img: './public/images/image/property/property-02.jpg',
-            category: 'Luxury Villa',
+            category: 'Penthouse',
             price: '1.180.000',
             caption: '54 Mid Street Florida, OR 27001',
             bedrooms: 6,
@@ -27,7 +27,7 @@ export const propertiesData = [
         {
             id: 3,
             img: './public/images/image/property/property-03.jpg',
-            category: 'Luxury Villa',
+            category: 'Apartment',
             price: '1.460.000',
             caption: '26 Old Street Miami, OR 38540',
             bedrooms: 5 ,
@@ -39,7 +39,7 @@ export const propertiesData = [
         {
             id: 4,
             img: './public/images/image/property/property-04.jpg',
-            category: 'Apartment',
+            category: 'Luxury Villa',
             price: '584.500',
             caption: '12 New Street Miami, OR 12650',
             bedrooms: 4 ,
@@ -63,7 +63,7 @@ export const propertiesData = [
         {
             id: 6,
             img: './public/images/image/property/property-06.jpg',
-            category: 'Penthouse',
+            category: 'Luxury Villa',
             price: '450.000',
             caption: '22 New Street Portland, OR 16540',
             bedrooms: 3 ,
