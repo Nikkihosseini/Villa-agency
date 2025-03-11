@@ -63,7 +63,7 @@ export const propertiesData = [
         {
             id: 6,
             img: './public/images/image/property/property-06.jpg',
-            category: 'Modern Condo',
+            category: 'Penthouse',
             price: '450.000',
             caption: '22 New Street Portland, OR 16540',
             bedrooms: 3 ,
@@ -87,7 +87,7 @@ export const propertiesData = [
         {
             id: 8,
             img: './public/images/image/property/property-02.jpg',
-            category: 'Modern Condo',
+            category: 'Apartment',
             price: '450.000',
             caption: '22 New Street Portland, OR 16540',
             bedrooms: 3 ,
