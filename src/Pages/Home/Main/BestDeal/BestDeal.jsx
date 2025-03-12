@@ -1,7 +1,7 @@
-import InfoTable from '../../../../Info-table/Info-table.jsx'
+import InfoTable from '../../../../Components/Info-table/Info-table.jsx'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCalendar } from '@fortawesome/free-solid-svg-icons'
-import SectionTitle from '../../../../SectionTitle/SectionTitle.jsx'
+import SectionTitle from '../../../../Components/SectionTitle/SectionTitle.jsx'
 
 
 export default function BestDeal(){

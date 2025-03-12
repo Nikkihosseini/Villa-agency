@@ -1,7 +1,7 @@
-import Header from '../../Header/Header.jsx'
-import BannerPages from '../../BannerPages/BannerPages.jsx'
+import Header from '../../Components/Header/Header.jsx'
+import BannerPages from '../../Components/BannerPages/BannerPages.jsx'
 import PropertiesWrapper from './PropertiesWrapper.jsx'
-import Footer from "../../Footer/Footer"
+import Footer from "../../Components/Footer/Footer"
 
 export default function Properties(){
     return(
