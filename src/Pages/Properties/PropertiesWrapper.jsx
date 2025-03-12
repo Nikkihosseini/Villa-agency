@@ -1,5 +1,5 @@
 import { useState , Fragment} from "react"
-import PropertiesBox from "../../PropertiesBox/PropertiesBox"
+import PropertiesBox from "../../Components/PropertiesBox/PropertiesBox"
 import PropertiesBtn from "./PropertiesBtn"
 import {propertiesData} from './propertiesData'
 import {categoryContext} from './categoryContext'

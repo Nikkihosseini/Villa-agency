@@ -1,5 +1,5 @@
-import SectionTitle from '../../../../SectionTitle/SectionTitle.jsx'
-import PropertiesBox from '../../../../PropertiesBox/PropertiesBox.jsx'
+import SectionTitle from '../../../../Components/SectionTitle/SectionTitle.jsx'
+import PropertiesBox from '../../../../Components/PropertiesBox/PropertiesBox.jsx'
 
 export default function Properties(){
     const Data = [
