@@ -1,7 +1,7 @@
 import { Fragment , useContext , useState} from "react"
 import {btnCategory} from './btnCategory'
 import {categoryContext} from './categoryContext'
-import {propertiesData} from './propertiesData'
+import {propertiesData} from '../../Data/propertiesData'
 import { AnimatePresence } from "framer-motion"
 
 
