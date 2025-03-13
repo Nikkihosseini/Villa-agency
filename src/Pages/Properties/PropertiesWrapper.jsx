@@ -1,15 +1,36 @@
 import { useState , Fragment} from "react"
 import PropertiesBox from "../../Components/PropertiesBox/PropertiesBox"
 import PropertiesBtn from "./PropertiesBtn"
-import {propertiesData} from './propertiesData'
+import {propertiesData} from '../../Data/propertiesData'
 import {categoryContext} from './categoryContext'
 import { AnimatePresence } from "framer-motion"
+import ReactPaginate from 'react-paginate';
 
 
 
 export default function PropertiesWrapper(){
 
     const [category, setCategory] = useState(propertiesData);
+
+    const [propertie , setPropertie] = useState(category.slice(0,45))
+
+    const [pageNumber, setPageNumber] = useState(0)
+
+    const propertiePrePage = 9
+
+    const pagesVisited = pageNumber * propertiePrePage
+
+    const displayPropertie = propertie.slice(pagesVisited , pagesVisited + propertiePrePage).map((item) => (
+        <PropertiesBox key={item.id} {...item}/>
+    ))
+
+    const pageCount = Math.ceil(propertie.length / propertiePrePage)
+
+    const changePage = ({selected}) => {
+        setPageNumber(selected)
+    }
+
+
    
     return(
         <Fragment>
@@ -21,19 +42,22 @@ export default function PropertiesWrapper(){
                             </div> 
                             <div className='grid md:grid-cols-2 2xl:grid-cols-3 gap-6 2xl:gap-9'>
                                 <AnimatePresence>
-                                    {category.map((item) => (
-                                        <PropertiesBox key={item.id} {...item}/>
-                                    ))}
+                                  {displayPropertie}
                                 </AnimatePresence>
                             </div> 
-                            <div>
-                                <div className="flex items-center justify-center gap-x-4">
-                                    <button className="w-[40px] h-[40px] rounded-full bg-zinc-950 text-white cursor-pointer">1</button>
-                                    <button className="w-[40px] h-[40px] rounded-full bg-zinc-950 text-white cursor-pointer">2</button>
-                                    <button className="w-[40px] h-[40px] rounded-full bg-zinc-950 text-white cursor-pointer">3</button>
-                                    <button className="flex items-center justify-center leading-[34px] w-[40px] h-[40px] rounded-full bg-zinc-950 text-white cursor-pointer text-xl">&raquo;</button>
-                                </div>
-                            </div>
+                            <div className="mb-4 md:mb-0 ">
+                                <ReactPaginate
+                                    nextLabel={<span className="flex leading-[23px] md:leading-[33px] h-full">&raquo;</span>}
+                                    previousClassName={'previousbtn'}
+                                    pageCount={pageCount}
+                                    onPageChange={changePage}
+                                    containerClassName={'paginationBtns'}
+                                    pageClassName={'paginationBtn'}
+                                    nextLinkClassName={'nextbtn'}
+                                    activeClassName={'paginationActive'}>
+                                    disabledClassName={'disabledClassName'}
+                                </ReactPaginate>
+                            </div> 
                         </div> 
                     </div>
                 </categoryContext.Provider>

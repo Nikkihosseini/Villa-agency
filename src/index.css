@@ -73,11 +73,102 @@
     color: #fb2c36;
   }
 
+  /* Pagination */
+
+  .paginationBtns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    max-width: 300px;
+  }
+
+  .paginationBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #09090b;
+    color: #fff;
+    border-radius: 100%;
+    line-height: 34px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+  }
+  .paginationBtn a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+  }
+  .paginationBtn:hover{
+    background-color: #fb2c36;
+    transition: all 150ms ease-in;
+  }
+
+  .nextbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #09090b;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    cursor: pointer;
+    font-size: 25px;
+  }
+
+  .nextbtn:hover{
+    background-color: #fb2c36;
+    transition: all 150ms ease-in;
+  }
+
+  .previousbtn{
+    display: none;
+  }
+
+  .disabledClassName .nextbtn{
+    display: none;
+  }
+
+
+  .paginationActive{
+    background-color: #fb2c36;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+  }
+
+
+
+
 
   @media screen and (min-width: 768px){
     .mobile-menu{
         display: none;
     }
+    .paginationBtn,
+    .nextbtn,
+    .paginationActive{
+      width: 40px;
+      height: 40px;
+      line-height: 20px;
+    }
+
+    .paginationBtns{
+      max-width: 350px;
+      gap: 1rem;
+    }
+    .paginationBtn a{
+      width: 100%;
+      height: 100%;
+    }
+  
 }
 
   @media screen and (min-width: 1280px){
