@@ -1,10 +1,11 @@
-import { useState , Fragment} from "react"
+import { useState , Fragment , useEffect , createContext} from "react"
 import PropertiesBox from "../../Components/PropertiesBox/PropertiesBox"
 import PropertiesBtn from "./PropertiesBtn"
 import {propertiesData} from '../../Data/propertiesData'
 import {categoryContext} from './categoryContext'
 import { AnimatePresence } from "framer-motion"
 import ReactPaginate from 'react-paginate';
+
 
 
 
@@ -29,7 +30,10 @@ export default function PropertiesWrapper(){
     const changePage = ({selected}) => {
         setPageNumber(selected)
     }
-
+    
+    useEffect(()=>{
+        window.scrollTo({top: 0 , behavior: 'smooth'});
+    },[displayPropertie])
 
    
     return(
