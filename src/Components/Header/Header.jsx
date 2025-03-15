@@ -78,12 +78,12 @@ export default function Header() {
               </li>
             </ul>
         </div>
-        <a className='font-semibold relative flex items-center py-2 pr-5 pl-14 bg-zinc-950 text-white hover:text-red-500 rounded-full transition-all' href='#'>
+        <Link className='font-semibold relative flex items-center py-2 pr-5 pl-14 bg-zinc-950 text-white hover:text-red-500 rounded-full transition-all' href='#'>
         <span className='flex items-center justify-center absolute left-0 bg-red-500 w-10 h-10 rounded-full'>
           <FontAwesomeIcon className='text-white' icon={faCalendar}/>
           </span>
           Schedule a visit
-        </a>
+        </Link>
        </div>
         <div onClick={toggleMobileMenu} className='mobile-menu-btn md:hidden flex items-center w-10 h-10 justify-center cursor-pointer'>
           <span className='hamburger-menu relative block w-8 h-[0.2rem] bg-zinc-950 rounded-lg transition-all'></span>
