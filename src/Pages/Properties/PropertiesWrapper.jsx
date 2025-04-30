@@ -10,12 +10,12 @@ import ReactPaginate from 'react-paginate';
 
 
 
-export default function PropertiesWrapper(){
 
+export default function PropertiesWrapper(){
 
     const [category, setCategory] = useState(propertiesData);
 
-    const [propertie , setPropertie] = useState(category.slice(0,45))
+    const [propertie , setPropertie] = useState(category.slice(0,category.length))
 
     const [pageNumber, setPageNumber] = useState(0)
 
@@ -23,12 +23,9 @@ export default function PropertiesWrapper(){
 
     const pagesVisited = pageNumber * propertiePrePage
 
-    console.log(pageNumber)
-
     const displayPropertie = propertie.slice(pagesVisited , pagesVisited + propertiePrePage).map((item) => (
         <PropertiesBox key={item.id} {...item}/>
     ))
-
 
 
     const pageCount = Math.ceil(propertie.length / propertiePrePage)
@@ -39,12 +36,14 @@ export default function PropertiesWrapper(){
 
     useEffect(()=>{
         window.scrollTo({top: 0 , behavior: 'smooth'});
-    },[displayPropertie])
+    },[])
 
+
+    
    
     return(
         <Fragment>
-            <categoryContext.Provider value={{ displayPropertie , category , setCategory}}>
+            <categoryContext.Provider value={{category , setCategory}}>
                     <div className="container mx-auto px-4 xl:px-20">
                         <div className="flex flex-col items-center justify-center my-10 gap-y-10 md:my-30 md:gap-y-20">
                             <div className='flex items-center justify-center gap-x-4 text-white font-semibold flex-wrap sm:flex-nowrap  gap-y-3 sm:gap-y-0'>
@@ -67,7 +66,6 @@ export default function PropertiesWrapper(){
                                     pageClassName={'paginationBtn'}
                                     activeClassName={'paginationActive'}
                                     disabledClassName={'disabledClassName'}>
-                                   
                                 </ReactPaginate>
                             </div> 
                         </div> 
