@@ -9,7 +9,7 @@ export default function PropertyDetails(){
         <>
             <Header/>
             <BannerPages pageName='Single Property'/>
-            <SinglePpropertySection/>
+            <SinglePpropertySection category='Apparment' caption='24 New Street Miami, OR 24560'/>
             <Footer/>
         </>
     )
