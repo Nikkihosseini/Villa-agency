@@ -4,7 +4,7 @@
 export default function SinglePropertyTabel(props){
     return(
         <>
-        <div className='flex flex-col justify-around w-[330px] sm:w-full h-[498px] rounded-[0.8rem] shadow-normal p-8 divide-y divide-gray-200'>
+        <div className='hidden xl:flex flex-col justify-around w-[330px] sm:w-full h-[498px] rounded-[0.8rem] shadow-normal p-8 divide-y divide-gray-200'>
             <div className='flex items-center gap-x-7 pb-8'>
                 <div>
                     <img src="./public/images/icon/info-icon-01.png" alt="icon"/>
