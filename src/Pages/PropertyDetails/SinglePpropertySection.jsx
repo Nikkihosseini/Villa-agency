@@ -18,7 +18,34 @@ export default function SinglePpropertySection(props){
                     <p className='text-gray-700 mb-6 line-clamp-3'>Get <span className='font-bold text-gray-800'>the best villa agency</span> HTML CSS Bootstrap Template for your company website. TemplateMo provides you <a className='text-blue-600' href="https://www.google.com/search?q=best+free+css+templates">the best free CSS templates</a> in the world. Please tell your friends about it. Thank you. Cloud bread kogi bitters pitchfork shoreditch tumblr yr succulents single-origin coffee schlitz enamel pin you probably haven't heard of them ugh hella.</p>
                     <p className='text-gray-700 line-clamp-3'>When you look for free CSS templates, you can simply type TemplateMo in any search engine website. In addition, you can type TemplateMo Digital Marketing, TemplateMo Corporate Layouts, etc. Master cleanse +1 intelligentsia swag post-ironic, slow-carb chambray knausgaard PBR&B DSA poutine neutra cardigan hoodie pop-up.</p>
                 </div>
-               
+                <div className='mt-15'>
+                    <Accordion className='bg-zinc-50 border-none dark:border-none dark:divide-gray-200 dark:border-gray-200 transition'>
+                        <Accordion.Panel className='bg-zinc-50'>
+                            <Accordion.Title className='dark:bg-zinc-50 dark:text-zinc-950 font-semibold dark:hover:bg-zinc-50 dark:focus:ring-zinc-50 focus:ring-0 p-3'>Best useful links ?</Accordion.Title>
+                                <Accordion.Content className='dark:bg-zinc-50 text-zinc-950 p-3'>
+                                    <p className="mb-2 line-clamp-3">
+                                        Get <strong>the best villa</strong> website template in HTML CSS and Bootstrap for your business. TemplateMo provides you the <a className='text-blue-400' href="">best free CSS templates</a> in the world. Please tell your friends about it.
+                                    </p>
+                                    </Accordion.Content>
+                                    </Accordion.Panel>
+                                    <Accordion.Panel>
+                                    <Accordion.Title className='dark:bg-zinc-50 dark:text-zinc-950 font-semibold  dark:hover:bg-zinc-50 dark:focus:ring-zinc-50 focus:ring-0 p-3'>How does this work ?</Accordion.Title>
+                                    <Accordion.Content className='dark:bg-zinc-50 text-zinc-950 p-3'>
+                                        <p className="mb-2 line-clamp-3">
+                                            Dolor almesit amet, consectetur adipiscing elit, sed doesn't eiusmod temporincididunt utlabore consectetur <code className='text-pink-500'>adipiscing</code> elit, sed do eiusmod tempor incididunt utlabore et doloremagna aliqua.
+                                        </p>
+                                    </Accordion.Content>
+                                    </Accordion.Panel>
+                                    <Accordion.Panel>
+                                    <Accordion.Title className='dark:bg-zinc-50 dark:text-zinc-950 font-semibold  dark:hover:bg-zinc-50 dark:focus:ring-zinc-50 focus:ring-0 p-3'>Why is Villa Agency the best ?</Accordion.Title>
+                                    <Accordion.Content className='dark:bg-zinc-50 text-zinc-950 p-3'>
+                                        <p className="mb-2 line-clamp-3">
+                                            Dolor almesit amet, consectetur adipiscing elit, sed doesn't eiusmod tempor incididunt ut labore consectetur <code className='text-pink-500'>adipiscing</code> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                        </p>
+                                </Accordion.Content>
+                            </Accordion.Panel>
+                    </Accordion>
+                </div>
             </div>
 
         </div>
