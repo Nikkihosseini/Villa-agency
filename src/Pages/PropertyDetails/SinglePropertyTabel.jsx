@@ -10,7 +10,7 @@ export default function SinglePropertyTabel(props){
                     <img src="./public/images/icon/info-icon-01.png" alt="icon"/>
                 </div>
                 <div className='flex flex-col'>
-                    <span className='font-bold text-2xl'>{props.space}</span>
+                    <span className='font-bold text-lg md:text-2xl'>{props.space}</span>
                     <span className='text-gray-400 text-[17px]'>Total Flat Space</span>
                 </div>
             </div>
@@ -19,7 +19,7 @@ export default function SinglePropertyTabel(props){
                     <img src="./public/images/icon/info-icon-02.png" alt="icon"/>
                 </div>
                 <div className='flex flex-col'>
-                    <span className='font-bold text-2xl'>Contract</span>
+                    <span className='font-bold text-lg md:text-2xl'>Contract</span>
                     <span className='text-gray-400 text-[17px]'>Contract Ready</span>
                 </div>
             </div>
@@ -28,7 +28,7 @@ export default function SinglePropertyTabel(props){
                     <img src="./public/images/icon/info-icon-03.png" alt="icon"/>
                 </div>
                 <div className='flex flex-col'>
-                    <span className='font-bold text-2xl'>Payment</span>
+                    <span className='font-bold text-lg md:text-2xl'>Payment</span>
                     <span className='text-gray-400 text-[17px]'>Payment Process</span>
                 </div>
             </div>
@@ -37,7 +37,7 @@ export default function SinglePropertyTabel(props){
                     <img src="./public/images/icon/info-icon-04.png" alt="icon"/>
                 </div>
                 <div className='flex flex-col'>
-                    <span className='font-bold text-2xl'>Safety</span>
+                    <span className='font-bold text-lg md:text-2xl'>Safety</span>
                     <span className='text-gray-400 text-[17px]'>{props.safety} Under Control</span>
                 </div>
             </div>
