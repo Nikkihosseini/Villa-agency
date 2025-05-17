@@ -1,16 +1,17 @@
 import SinglePropertyTabel from './SinglePropertyTabel'
 import { Accordion } from 'flowbite-react';
+import BestDeal from '../Home/Main/BestDeal/BestDeal'
 
 
 export default function SinglePpropertySection(props){
     return(
         <>
         <div className='container mx-auto px-4 xl:px-20'>
-            <div className='flex flex-col items-start xl:flex-row my-25 xl:gap-5 2xl:gap-25'>
+            <div className='flex flex-col items-start xl:flex-row my-15 lg:my-25 xl:gap-5 2xl:gap-25'>
             <div className='flex flex-col mx-auto xl:mx-0 max-w-[855px]'>
                 <div className='flex flex-col border-b border-gray-200 pb-8 mb-8'>
-                    <div className='items-center xl:items-start max-w-[855px] h-[476px] mb-10'>
-                        <img className='inline-block h-[498px] w-full' src="./images/image/single-property/single-property.jpg" alt="Apparment-img"/>
+                    <div className='items-center xl:items-start max-w-[855px] max-h-[476px] mb-10'>
+                        <img className='inline-block max-h-[498px] w-full' src="./images/image/single-property/single-property.jpg" alt="Apparment-img"/>
                     </div>
                     <span className='block max-w-[105px] text-center bg-red-100 rounded-md font-semibold px-2 py-1 mb-5'>{props.category}</span>
                     <h4 className='w-full text-start font-bold text-base sm:text-2xl line-clamp-1'>{props.caption}</h4>
@@ -52,6 +53,7 @@ export default function SinglePpropertySection(props){
                 <SinglePropertyTabel space='450 m2' safety='24/7'/>
             </div>
             </div>
+            <BestDeal/>
         </div>
         </>
     )
