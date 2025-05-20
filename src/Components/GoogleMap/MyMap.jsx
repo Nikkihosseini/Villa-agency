@@ -2,7 +2,7 @@ import { GoogleMap, LoadScript , Marker} from '@react-google-maps/api';
 
 const containerStyle = {
   width: '100%',
-  height: '400px'
+  height: '500px'
 };
 const center = {
   lat: 25.9500,  // Latitude of Sunny Isles Beach
