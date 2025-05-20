@@ -1,5 +1,6 @@
 import ContactForm from './ContactForm.jsx';
 import ContactInfo from './ContactInfo.jsx'
+import MyMap from '../GoogleMap/MyMap.jsx'
 
 
 export default function ContactUsHome(){
@@ -17,7 +18,9 @@ export default function ContactUsHome(){
                     </div>
                     <div className='flex lg:flex-row flex-col items-center justify-between w-full gap-x-10 2xl:gap-x-12'>
                         <div className='h-full w-full lg:w-[60%]'>
-                            <div className='h-125 w-full bg-white rounded-[0.8rem] shadow-normal font-bold flex items-center justify-center text-3xl mb-8 lg:mb-12'>Map</div>
+                            <div className='h-125 w-full bg-white rounded-[0.8rem] shadow-normal font-bold flex items-center justify-center text-3xl mb-8 lg:mb-12 overflow-hidden'>
+                                <MyMap/>
+                            </div>
                             <ContactInfo/>
                         </div>
                        <ContactForm/>
