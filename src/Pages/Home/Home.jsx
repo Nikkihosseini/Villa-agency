@@ -5,7 +5,7 @@ import Featured from "./Main/Featured/Featured.jsx";
 import VideoView from "./Main/VideoView/VideoView.jsx";
 import BestDeal from "./Main/BestDeal/BestDeal.jsx";
 import Properties from "./Main/Propertie/Propertie.jsx";
-import ContactUs from "../../Components/ContactUs/ContactUsHome.jsx";
+import ContactUsHome from "../../Components/ContactUs/ContactUsHome.jsx";
 import Footer from "../../Components/Footer/Footer.jsx";
 
  
@@ -19,7 +19,7 @@ export default function Home(){
             <VideoView/>
             <BestDeal/>
             <Properties/>
-            <ContactUs/>
+            <ContactUsHome/>
             <Footer/>
         </>
     )
