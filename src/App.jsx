@@ -4,7 +4,7 @@ import Home from './Pages/Home/Home.jsx'
 import Properties from './Pages/Properties/Properties.jsx'
 import PropertyDetails from './Pages/PropertyDetails/PropertyDetails.jsx'
 import ContactUs from "./Pages/ContactUs/ContactUs.jsx"
-import { BrowserRouter as Router , Routes , Route } from 'react-router'
+import { HashRouter as Router , Routes , Route } from 'react-router'
 
 
 export default function App() {
