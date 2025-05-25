@@ -3,13 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://nikkihosseini.github.io/Villa-agency",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
@@ -46,6 +47,5 @@
     "postcss": "^8.5.1",
     "tailwindcss": "^4.0.9",
     "vite": "^6.0.5"
-  },
-  "homepage": "https://nikkihosseini.github.io/Villa-agency"
+  }
 }
