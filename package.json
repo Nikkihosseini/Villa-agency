@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://nikkihosseini.github.io/Villa-agency",
+  "homepage": "https://nikkihosseini.github.io/Villa-agency/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
