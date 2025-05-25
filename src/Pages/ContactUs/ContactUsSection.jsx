@@ -8,8 +8,8 @@ export default function ContactUsSection(){
         <>
             <div className="container mx-auto px-4 xl:px-20">
                 <div className='my-15 lg:my-25'>
-                    <div className='flex justify-between mb-20'>
-                       <div className='w-[50%]'>
+                    <div className='flex lg:flex-row flex-col justify-between mb-20'>
+                       <div className='w-full lg:w-[50%]'>
                            <div>
                                 <div className='flex flex-col items-start'>
                                     <h4 className='line-before text-red-500 relative font-bold uppercase ml-2.5 xl:mb-4'>Contact Us</h4>
