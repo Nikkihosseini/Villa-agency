@@ -11,7 +11,7 @@ export default function App() {
 
   return (
     <>
-      <Router basename="Villa-agency">
+      <Router>
         <Routes>
           <Route path='/' element={<Home/>} />
           <Route path='/properties' element={<Properties/>} />
