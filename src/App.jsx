@@ -5,6 +5,7 @@ import Properties from './Pages/Properties/Properties.jsx'
 import PropertyDetails from './Pages/PropertyDetails/PropertyDetails.jsx'
 import ContactUs from "./Pages/ContactUs/ContactUs.jsx"
 import { HashRouter as Router , Routes , Route } from 'react-router'
+import ScrollToTop from './Components/ScrollToTop.jsx';
 
 
 export default function App() {
@@ -12,6 +13,7 @@ export default function App() {
   return (
     <>
       <Router>
+      <ScrollToTop />
         <Routes>
           <Route path='/' element={<Home/>} />
           <Route path='/properties' element={<Properties/>} />
