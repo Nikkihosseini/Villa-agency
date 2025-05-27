@@ -1,4 +1,3 @@
-6rem
 import { Link } from "react-router"
 
 export default function BannerPages(props){
