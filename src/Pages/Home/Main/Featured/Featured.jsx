@@ -9,10 +9,10 @@ export default function Featured() {
                <div className='flex flex-col md:flex-row items-center justify-around gap-x-8 px-0 lg:px-8 my-12 md:my-26 md:h-[498px] h-full '>
                 <div className='relative 2xl:flex hidden'>
                         <div className='lg:w-[355px] lg:h-[490px]'>
-                            <img className='block w-full h-full' src="./public/images/image/featured/featured.jpg" alt="featured"/>  
+                            <img className='block w-full h-full' src="images/image/featured/featured.jpg" alt="featured"/>  
                         </div>
                         <a className='flex absolute bottom-[-52px] left-[-52px] items-center justify-center w-[110px] h-[110px] bg-red-500 rounded-full' href='#'>
-                            <img src="./public/images/icon/featured-icon.png" alt="featured-icon"/>
+                            <img src="images/icon/featured-icon.png" alt="featured-icon"/>
                         </a>
                     </div>
                     <div className='flex flex-col justify-between max-w-[550px] h-full mx-auto md:mx-0'>
@@ -21,7 +21,7 @@ export default function Featured() {
                               <SectionTitle title='Featured' caption='Best Appartment & Sea view'/>
                          </div>
                          <a className='flex 2xl:hidden items-center justify-center absolute right-0 bottom-0 md:bottom-[-85px] lg:bottom-[-8px] md:w-[110px] md:h-[110px] w-[90px] h-[90px] bg-red-500 rounded-full mb-4' href='#'>
-                            <img src="./public/images/icon/featured-icon.png" alt="featured-icon"/>
+                            <img src="images/icon/featured-icon.png" alt="featured-icon"/>
                          </a>
                         </div>
                         <div>
@@ -58,7 +58,7 @@ export default function Featured() {
                     </div>
                     <div className='hidden sm:flex md:hidden mt-5'>
                        <div className='relative lg:w-[355px] lg:h-[490px] rounded-[0.8rem] overflow-hidden'>
-                            <img className='block w-full h-full' src="./public/images/image/featured/featured.jpg" alt="featured"/> 
+                            <img className='block w-full h-full' src="images/image/featured/featured.jpg" alt="featured"/> 
                         </div>
                         <InfoTableIcon space='250 m2' safety='24/7'/>
                     </div>

@@ -11,7 +11,7 @@ export default function SinglePpropertySection(props){
             <div className='flex flex-col mx-auto xl:mx-0 max-w-[855px]'>
                 <div className='flex flex-col border-b border-gray-200 pb-8 mb-8'>
                     <div className='items-center xl:items-start max-w-[855px] max-h-[476px] mb-10'>
-                        <img className='inline-block max-h-[498px] w-full' src="./images/image/single-property/single-property.jpg" alt="Apparment-img"/>
+                        <img className='inline-block max-h-[498px] w-full' src="images/image/single-property/single-property.jpg" alt="Apparment-img"/>
                     </div>
                     <span className='block max-w-[105px] text-center bg-red-100 rounded-md font-semibold px-2 py-1 mb-5'>{props.category}</span>
                     <h4 className='w-full text-start font-bold text-base sm:text-2xl line-clamp-1'>{props.caption}</h4>

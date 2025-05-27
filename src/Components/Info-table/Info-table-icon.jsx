@@ -6,7 +6,7 @@ export default function InfoTable(props){
         <div className='flex flex-col justify-around w-[330px] sm:w-[306px] h-[498px] rounded-[0.8rem] shadow-normal p-8 divide-y divide-gray-200'>
             <div className='flex items-center gap-x-7 pb-8'>
                 <div>
-                    <img src="./public/images/icon/info-icon-01.png" alt="icon"/>
+                    <img src="images/icon/info-icon-01.png" alt="icon"/>
                 </div>
                 <div className='flex flex-col'>
                     <span className='font-bold text-2xl'>{props.space}</span>
@@ -15,7 +15,7 @@ export default function InfoTable(props){
             </div>
             <div className='flex items-center gap-x-7 pb-8'>
                 <div>
-                    <img src="./public/images/icon/info-icon-02.png" alt="icon"/>
+                    <img src="images/icon/info-icon-02.png" alt="icon"/>
                 </div>
                 <div className='flex flex-col'>
                     <span className='font-bold text-2xl'>Contract</span>
@@ -24,7 +24,7 @@ export default function InfoTable(props){
             </div>
             <div className='flex items-center gap-x-7 pb-8'>
                 <div>
-                    <img src="./public/images/icon/info-icon-03.png" alt="icon"/>
+                    <img src="images/icon/info-icon-03.png" alt="icon"/>
                 </div>
                 <div className='flex flex-col'>
                     <span className='font-bold text-2xl'>Payment</span>
@@ -33,7 +33,7 @@ export default function InfoTable(props){
             </div>
             <div className='flex items-center gap-x-7'>
                 <div>
-                    <img src="./public/images/icon/info-icon-04.png" alt="icon"/>
+                    <img src="images/icon/info-icon-04.png" alt="icon"/>
                 </div>
                 <div className='flex flex-col'>
                     <span className='font-bold text-2xl'>Safety</span>

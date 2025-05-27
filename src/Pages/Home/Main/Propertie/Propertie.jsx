@@ -5,7 +5,7 @@ export default function Properties(){
     const Data = [
         {
             id: 1,
-            img: './public/images/image/property/property-01.jpg',
+            img: 'images/image/property/property-01.jpg',
             category: 'Luxury Villa',
             price: '2.264.000',
             caption: '18 New Street Miami, OR 97219',
@@ -17,7 +17,7 @@ export default function Properties(){
         },
         {
             id: 2,
-            img: './public/images/image/property/property-02.jpg',
+            img: 'images/image/property/property-02.jpg',
             category: 'Luxury Villa',
             price: '1.180.000',
             caption: '54 Mid Street Florida, OR 27001',
@@ -29,7 +29,7 @@ export default function Properties(){
         },
         {
             id: 3,
-            img: './public/images/image/property/property-03.jpg',
+            img: 'images/image/property/property-03.jpg',
             category: 'Luxury Villa',
             price: '1.460.000',
             caption: '26 Old Street Miami, OR 38540',
@@ -41,7 +41,7 @@ export default function Properties(){
         },
         {
             id: 4,
-            img: './public/images/image/property/property-04.jpg',
+            img: 'images/image/property/property-04.jpg',
             category: 'Apartment',
             price: '584.500',
             caption: '12 New Street Miami, OR 12650',
@@ -53,7 +53,7 @@ export default function Properties(){
         },
         {
             id: 5,
-            img: './public/images/image/property/property-05.jpg',
+            img: 'images/image/property/property-05.jpg',
             category: 'Penthouse',
             price: '925.600',
             caption: '34 Beach Street Miami, OR 42680',
@@ -65,7 +65,7 @@ export default function Properties(){
         },
         {
             id: 6,
-            img: './public/images/image/property/property-06.jpg',
+            img: 'images/image/property/property-06.jpg',
             category: 'Modern Condo',
             price: '450.000',
             caption: '22 New Street Portland, OR 16540',
