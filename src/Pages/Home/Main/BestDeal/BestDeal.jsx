@@ -25,7 +25,7 @@ export default function BestDeal(){
                             <InfoTable space='185 m2' floorNumber='26th' rooms='4' parking='Yes' payment='Bank' />
                         </div>
                         <div className='w-auto h-auto sm:w-[520px] sm:h-[414px]'>
-                            <img className='w-full h-full' src="./public/images/image/deal/deal-01.jpg" alt="deal1"/>
+                            <img className='w-full h-full' src="images/image/deal/deal-01.jpg" alt="deal1"/>
                         </div>
                         <div className='flex flex-col gap-y-4 lg:gap-y-0 h-full justify-between w-full lg:w-[330px]'>
                             <h4 className='font-bold text-lg tracking-wider'>

@@ -7,7 +7,7 @@ export default function VideoView(){
         <>
         <div className='my-12 md:my-26'>
             <div className='hidden md:flex w-full'>
-                <img className='w-full' src="./public/images/image/video-img/video-bg.jpg" alt="video-bg"/> 
+                <img className='w-full' src="images/image/video-img/video-bg.jpg" alt="video-bg"/> 
             </div>
             <div className='container mx-auto px-4 xl:px-20'>
                 <div className='flex flex-col items-center justify-between gap-y-10 lg:gap-y-15 xl:gap-y-18 text-center md:mt-[-15rem] lg:mt-[-21rem] xl:mt-[-26rem]'>
@@ -17,7 +17,7 @@ export default function VideoView(){
                     </div>
                     <div>
                     <div className='relative rounded-lg overflow-hidden max-w-[1070px] max-h-[480px] shadow-normalg'>
-                        <img className='w-full h-full' src="./public/images/image/video-img/video-frame.jpg" alt="video-frame"/>
+                        <img className='w-full h-full' src="images/image/video-img/video-frame.jpg" alt="video-frame"/>
                         <a className='before-circle flex items-center justify-center absolute top-0 bottom-0 left-0 right-0 m-auto bg-white w-10 h-10 md:w-13 md:h-13 rounded-full' href="https://www.youtube.com/">
                         <FontAwesomeIcon className='text-red-500 md:fa-lg' icon={faPlay}/></a>
                     </div>

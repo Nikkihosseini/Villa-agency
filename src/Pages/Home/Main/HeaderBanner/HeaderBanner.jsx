@@ -30,7 +30,7 @@ export default function HeaderBanner() {
                 <h2 className='text-white text-2xl sm:text-5xl md:text-5xl lg:text-6xl font-bold line-clamp-4 max-w-[485px] lg:leading-22 uppercase'><span className='block max-w-[214px]'>Hurry!</span>Get the Best Villa for you</h2>
               </div>
             </div>
-            <img className='h-full w-full' src="./images/image/banner/banner-01.jpg" alt="Toronto,Canada"/>
+            <img className='h-full w-full' src="images/image/banner/banner-01.jpg" alt="Toronto,Canada"/>
           </div>
         </SwiperSlide>
         <SwiperSlide>
@@ -41,7 +41,7 @@ export default function HeaderBanner() {
                 <h2 className='text-white text-2xl sm:text-5xl md:text-5xl lg:text-6xl font-bold line-clamp-4 max-w-[485px] lg:leading-22 uppercase'><span className='block max-w-[358px]'>Be Quick!</span>Get the best villa in town</h2>
               </div>
             </div>
-            <img className='h-full w-full' src="./images/image/banner/banner-02.jpg" alt="Toronto,Canada"/>
+            <img className='h-full w-full' src="images/image/banner/banner-02.jpg" alt="Toronto,Canada"/>
           </div>
         </SwiperSlide>
         <SwiperSlide>
@@ -52,7 +52,7 @@ export default function HeaderBanner() {
                 <h2 className='text-white text-2xl sm:text-5xl md:text-5xl lg:text-6xl font-bold line-clamp-4 max-w-[539px] lg:leading-22 uppercase'><span className='block max-w-[377px]'>Act Now!</span>Get the highest level penthouse</h2>
               </div>
             </div>
-            <img className='h-full w-full' src="./images/image/banner/banner-03.jpg" alt="Toronto,Canada"/>
+            <img className='h-full w-full' src="images/image/banner/banner-03.jpg" alt="Toronto,Canada"/>
           </div>
         </SwiperSlide>
       </Swiper>

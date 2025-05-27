@@ -2,7 +2,7 @@
 export const propertiesData = [
         {
             id: 1,
-            img: './public/images/image/property/property-01.jpg',
+            img: 'images/image/property/property-01.jpg',
             category: 'Luxury Villa',
             price: '2.264.000',
             caption: '18 New Street Miami, OR 97219',
@@ -14,7 +14,7 @@ export const propertiesData = [
         },
         {
             id: 2,
-            img: './public/images/image/property/property-02.jpg',
+            img: 'images/image/property/property-02.jpg',
             category: 'Penthouse',
             price: '1.180.000',
             caption: '54 Mid Street Florida, OR 27001',
@@ -26,7 +26,7 @@ export const propertiesData = [
         },
         {
             id: 3,
-            img: './public/images/image/property/property-03.jpg',
+            img: 'images/image/property/property-03.jpg',
             category: 'Apartment',
             price: '1.460.000',
             caption: '26 Old Street Miami, OR 38540',
@@ -38,7 +38,7 @@ export const propertiesData = [
         },
         {
             id: 4,
-            img: './public/images/image/property/property-04.jpg',
+            img: 'images/image/property/property-04.jpg',
             category: 'Luxury Villa',
             price: '584.500',
             caption: '12 New Street Miami, OR 12650',
@@ -50,7 +50,7 @@ export const propertiesData = [
         },
         {
             id: 5,
-            img: './public/images/image/property/property-05.jpg',
+            img: 'images/image/property/property-05.jpg',
             category: 'Penthouse',
             price: '925.600',
             caption: '34 Beach Street Miami, OR 42680',
@@ -62,7 +62,7 @@ export const propertiesData = [
         },
         {
             id: 6,
-            img: './public/images/image/property/property-06.jpg',
+            img: 'images/image/property/property-06.jpg',
             category: 'Luxury Villa',
             price: '450.000',
             caption: '22 New Street Portland, OR 16540',
@@ -74,7 +74,7 @@ export const propertiesData = [
         },
         {
             id: 7,
-            img: './public/images/image/property/property-01.jpg',
+            img: 'images/image/property/property-01.jpg',
             category: 'Modern Condo',
             price: '450.000',
             caption: '22 New Street Portland, OR 16540',
@@ -86,7 +86,7 @@ export const propertiesData = [
         },
         {
             id: 8,
-            img: './public/images/image/property/property-02.jpg',
+            img: 'images/image/property/property-02.jpg',
             category: 'Apartment',
             price: '450.000',
             caption: '22 New Street Portland, OR 16540',
@@ -98,7 +98,7 @@ export const propertiesData = [
         },
         {
             id: 9,
-            img: './public/images/image/property/property-03.jpg',
+            img: 'images/image/property/property-03.jpg',
             category: 'Modern Condo',
             price: '450.000',
             caption: '22 New Street Portland, OR 16540',
@@ -110,7 +110,7 @@ export const propertiesData = [
         },
         {
             id: 10,
-            img: './public/images/image/property/property-01.jpg',
+            img: 'images/image/property/property-01.jpg',
             category: 'Luxury Villa',
             price: '2.264.000',
             caption: '18 New Street Miami, OR 97219',
@@ -122,7 +122,7 @@ export const propertiesData = [
         },
         {
             id: 11,
-            img: './public/images/image/property/property-02.jpg',
+            img: 'images/image/property/property-02.jpg',
             category: 'Penthouse',
             price: '1.180.000',
             caption: '54 Mid Street Florida, OR 27001',
@@ -134,7 +134,7 @@ export const propertiesData = [
         },
         {
             id: 12,
-            img: './public/images/image/property/property-03.jpg',
+            img: 'images/image/property/property-03.jpg',
             category: 'Apartment',
             price: '1.460.000',
             caption: '26 Old Street Miami, OR 38540',
@@ -146,7 +146,7 @@ export const propertiesData = [
         },
         {
             id: 13,
-            img: './public/images/image/property/property-04.jpg',
+            img: 'images/image/property/property-04.jpg',
             category: 'Luxury Villa',
             price: '584.500',
             caption: '12 New Street Miami, OR 12650',
@@ -158,7 +158,7 @@ export const propertiesData = [
         },
         {
             id: 14,
-            img: './public/images/image/property/property-05.jpg',
+            img: 'images/image/property/property-05.jpg',
             category: 'Penthouse',
             price: '925.600',
             caption: '34 Beach Street Miami, OR 42680',
@@ -170,7 +170,7 @@ export const propertiesData = [
         },
         {
             id: 15,
-            img: './public/images/image/property/property-06.jpg',
+            img: 'images/image/property/property-06.jpg',
             category: 'Luxury Villa',
             price: '450.000',
             caption: '22 New Street Portland, OR 16540',
@@ -182,7 +182,7 @@ export const propertiesData = [
         },
         {
             id: 16,
-            img: './public/images/image/property/property-01.jpg',
+            img: 'images/image/property/property-01.jpg',
             category: 'Modern Condo',
             price: '450.000',
             caption: '22 New Street Portland, OR 16540',
@@ -194,7 +194,7 @@ export const propertiesData = [
         },
         {
             id: 17,
-            img: './public/images/image/property/property-02.jpg',
+            img: 'images/image/property/property-02.jpg',
             category: 'Apartment',
             price: '450.000',
             caption: '22 New Street Portland, OR 16540',
@@ -206,7 +206,7 @@ export const propertiesData = [
         },
         {
             id: 18,
-            img: './public/images/image/property/property-03.jpg',
+            img: 'images/image/property/property-03.jpg',
             category: 'Modern Condo',
             price: '450.000',
             caption: '22 New Street Portland, OR 16540',
@@ -218,7 +218,7 @@ export const propertiesData = [
         },
         {
             id:19,
-            img: './public/images/image/property/property-01.jpg',
+            img: 'images/image/property/property-01.jpg',
             category: 'Luxury Villa',
             price: '2.264.000',
             caption: '18 New Street Miami, OR 97219',
@@ -230,7 +230,7 @@ export const propertiesData = [
         },
         {
             id: 20,
-            img: './public/images/image/property/property-02.jpg',
+            img: 'images/image/property/property-02.jpg',
             category: 'Penthouse',
             price: '1.180.000',
             caption: '54 Mid Street Florida, OR 27001',
@@ -242,7 +242,7 @@ export const propertiesData = [
         },
         {
             id: 21,
-            img: './public/images/image/property/property-03.jpg',
+            img: 'images/image/property/property-03.jpg',
             category: 'Apartment',
             price: '1.460.000',
             caption: '26 Old Street Miami, OR 38540',
@@ -254,7 +254,7 @@ export const propertiesData = [
         },
         {
             id: 22,
-            img: './public/images/image/property/property-04.jpg',
+            img: 'images/image/property/property-04.jpg',
             category: 'Luxury Villa',
             price: '584.500',
             caption: '12 New Street Miami, OR 12650',
@@ -266,7 +266,7 @@ export const propertiesData = [
         },
         {
             id: 23,
-            img: './public/images/image/property/property-05.jpg',
+            img: 'images/image/property/property-05.jpg',
             category: 'Penthouse',
             price: '925.600',
             caption: '34 Beach Street Miami, OR 42680',
@@ -278,7 +278,7 @@ export const propertiesData = [
         },
         {
             id: 24,
-            img: './public/images/image/property/property-06.jpg',
+            img: 'images/image/property/property-06.jpg',
             category: 'Luxury Villa',
             price: '450.000',
             caption: '22 New Street Portland, OR 16540',
@@ -290,7 +290,7 @@ export const propertiesData = [
         },
         {
             id: 25,
-            img: './public/images/image/property/property-01.jpg',
+            img: 'images/image/property/property-01.jpg',
             category: 'Modern Condo',
             price: '450.000',
             caption: '22 New Street Portland, OR 16540',
@@ -302,7 +302,7 @@ export const propertiesData = [
         },
         {
             id: 26,
-            img: './public/images/image/property/property-02.jpg',
+            img: 'images/image/property/property-02.jpg',
             category: 'Apartment',
             price: '450.000',
             caption: '22 New Street Portland, OR 16540',
@@ -314,7 +314,7 @@ export const propertiesData = [
         },
         {
             id: 27,
-            img: './public/images/image/property/property-03.jpg',
+            img: 'images/image/property/property-03.jpg',
             category: 'Modern Condo',
             price: '450.000',
             caption: '22 New Street Portland, OR 16540',
@@ -326,7 +326,7 @@ export const propertiesData = [
         },
         {
             id: 28,
-            img: './public/images/image/property/property-01.jpg',
+            img: 'images/image/property/property-01.jpg',
             category: 'Luxury Villa',
             price: '2.264.000',
             caption: '18 New Street Miami, OR 97219',
@@ -338,7 +338,7 @@ export const propertiesData = [
         },
         {
             id: 29,
-            img: './public/images/image/property/property-02.jpg',
+            img: 'images/image/property/property-02.jpg',
             category: 'Penthouse',
             price: '1.180.000',
             caption: '54 Mid Street Florida, OR 27001',
@@ -350,7 +350,7 @@ export const propertiesData = [
         },
         {
             id: 30,
-            img: './public/images/image/property/property-03.jpg',
+            img: 'images/image/property/property-03.jpg',
             category: 'Apartment',
             price: '1.460.000',
             caption: '26 Old Street Miami, OR 38540',
@@ -362,7 +362,7 @@ export const propertiesData = [
         },
         {
             id: 31,
-            img: './public/images/image/property/property-04.jpg',
+            img: 'images/image/property/property-04.jpg',
             category: 'Luxury Villa',
             price: '584.500',
             caption: '12 New Street Miami, OR 12650',
@@ -374,7 +374,7 @@ export const propertiesData = [
         },
         {
             id: 32,
-            img: './public/images/image/property/property-05.jpg',
+            img: 'images/image/property/property-05.jpg',
             category: 'Penthouse',
             price: '925.600',
             caption: '34 Beach Street Miami, OR 42680',
@@ -386,7 +386,7 @@ export const propertiesData = [
         },
         {
             id: 33,
-            img: './public/images/image/property/property-06.jpg',
+            img: 'images/image/property/property-06.jpg',
             category: 'Luxury Villa',
             price: '450.000',
             caption: '22 New Street Portland, OR 16540',
@@ -398,7 +398,7 @@ export const propertiesData = [
         },
         {
             id: 34,
-            img: './public/images/image/property/property-01.jpg',
+            img: 'images/image/property/property-01.jpg',
             category: 'Modern Condo',
             price: '450.000',
             caption: '22 New Street Portland, OR 16540',
@@ -410,7 +410,7 @@ export const propertiesData = [
         },
         {
             id: 35,
-            img: './public/images/image/property/property-02.jpg',
+            img: 'images/image/property/property-02.jpg',
             category: 'Apartment',
             price: '450.000',
             caption: '22 New Street Portland, OR 16540',
@@ -422,7 +422,7 @@ export const propertiesData = [
         },
         {
             id: 36,
-            img: './public/images/image/property/property-03.jpg',
+            img: 'images/image/property/property-03.jpg',
             category: 'Modern Condo',
             price: '450.000',
             caption: '22 New Street Portland, OR 16540',
@@ -434,7 +434,7 @@ export const propertiesData = [
         },
         {
             id: 37,
-            img: './public/images/image/property/property-01.jpg',
+            img: 'images/image/property/property-01.jpg',
             category: 'Luxury Villa',
             price: '2.264.000',
             caption: '18 New Street Miami, OR 97219',
@@ -446,7 +446,7 @@ export const propertiesData = [
         },
         {
             id: 38,
-            img: './public/images/image/property/property-02.jpg',
+            img: 'images/image/property/property-02.jpg',
             category: 'Penthouse',
             price: '1.180.000',
             caption: '54 Mid Street Florida, OR 27001',
@@ -458,7 +458,7 @@ export const propertiesData = [
         },
         {
             id: 39,
-            img: './public/images/image/property/property-03.jpg',
+            img: 'images/image/property/property-03.jpg',
             category: 'Apartment',
             price: '1.460.000',
             caption: '26 Old Street Miami, OR 38540',
@@ -470,7 +470,7 @@ export const propertiesData = [
         },
         {
             id: 40,
-            img: './public/images/image/property/property-04.jpg',
+            img: 'images/image/property/property-04.jpg',
             category: 'Luxury Villa',
             price: '584.500',
             caption: '12 New Street Miami, OR 12650',
@@ -482,7 +482,7 @@ export const propertiesData = [
         },
         {
             id: 41,
-            img: './public/images/image/property/property-05.jpg',
+            img: 'images/image/property/property-05.jpg',
             category: 'Penthouse',
             price: '925.600',
             caption: '34 Beach Street Miami, OR 42680',
@@ -494,7 +494,7 @@ export const propertiesData = [
         },
         {
             id: 42,
-            img: './public/images/image/property/property-06.jpg',
+            img: 'images/image/property/property-06.jpg',
             category: 'Luxury Villa',
             price: '450.000',
             caption: '22 New Street Portland, OR 16540',
@@ -506,7 +506,7 @@ export const propertiesData = [
         },
         {
             id: 43,
-            img: './public/images/image/property/property-01.jpg',
+            img: 'images/image/property/property-01.jpg',
             category: 'Modern Condo',
             price: '450.000',
             caption: '22 New Street Portland, OR 16540',
@@ -518,7 +518,7 @@ export const propertiesData = [
         },
         {
             id: 44,
-            img: './public/images/image/property/property-02.jpg',
+            img: 'images/image/property/property-02.jpg',
             category: 'Apartment',
             price: '450.000',
             caption: '22 New Street Portland, OR 16540',
@@ -530,7 +530,7 @@ export const propertiesData = [
         },
         {
             id: 45,
-            img: './public/images/image/property/property-03.jpg',
+            img: 'images/image/property/property-03.jpg',
             category: 'Modern Condo',
             price: '450.000',
             caption: '22 New Street Portland, OR 16540',
